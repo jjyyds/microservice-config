@@ -74,7 +74,7 @@ logging:
 eureka:
   client: # 客户端进行Eureka注册的配置
     service-url:
-      defaultZone: http://admin:a@localhost:7002/eureka
+      defaultZone: http://admin:a@localhost:7301/eureka
   instance:
     instance-id: microservice-config-provider-client
     prefer-ip-address: true
