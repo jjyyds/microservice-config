@@ -44,5 +44,10 @@ spring:
     user:
       name: admin
       password: a
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 120.79.175.237
   application:
     name: microcloud-config-eureka-client
